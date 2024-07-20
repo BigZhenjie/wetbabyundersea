@@ -22,6 +22,7 @@ async def connect(sid, environ):
 @sio.event
 async def client_send(sid, data: list[any]):
     print("client sent:  ", data)
+    #deal with whatever client sent, could be a function
     squared = int(data[0]) ** 2
     # Example of sending an acknowledgment or modified message back to the sender
     await sio.emit('server_response', squared, to=sid)

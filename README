@@ -1,0 +1,14 @@
+# Anemo Socket Stuff
+
+## Installation 
+
+1. Frontend: `pnpm install`
+2. Backend: ```pip install fastapi python-socketio```
+
+
+## Usage
+
+1. Frontend: ```npm run dev```
+2. Backend: ```python3 main.py``` or ```python main.py```
+
+
