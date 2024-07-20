@@ -2,7 +2,7 @@
 
 ## Installation 
 
-1. Frontend: `pnpm install`
+1. Frontend: ```pnpm install```
 2. Backend: ```pip install fastapi python-socketio```
 
 
